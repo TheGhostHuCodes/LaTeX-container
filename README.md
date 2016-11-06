@@ -11,8 +11,8 @@ docker pull tghc/latex-container:<tag>
 
 where `<tag>` value is either `develop` or `master`.
 
-You can then run the container and with your `/Users/` directory mounted within
-the container by running:
+You can then run the container with your `/Users/` directory mounted within
+the container by executing the following command:
 
 ```
 docker run -it -v /Users:/Users tghc/latex-container:<tag> /bin/bash
